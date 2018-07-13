@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jeff Diers</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+        <meta name="description" content="Web Developer based in Denver, CO">
+        <meta name="keywords" content="Jeff Diers, Web developer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Web Developer based in Denver, CO">
+        <meta property="og:type" content="Website">
+        <meta property="og:description" content="Email or call if you would like to work with me.">
+        <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/jeffdiers.com/thumbnail.png">
+        <meta property="og:url" content="http://jeffdiers.com">
+        <meta property="fb:app_id" content="199737004022594"/>
+        <meta name="twitter:title" content="Jeff Diers, Web developer">
+        <meta name="twitter:description" content="Email or call if you would like to work with me.">
+        <meta name="twitter:image" content="https://s3-us-west-2.amazonaws.com/jeffdiers.com/thumbnail.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <link rel="conoical" href="http://jeffdiers.com/" />
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                appId      : '199737004022594',
+                xfbml      : true,
+                version    : 'v3.0'
+                });
+            
+                FB.AppEvents.logPageView();
+            
+            };
+
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "https://connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <nav>
+            <div class="nav-container">
+                <a class="nav-link">Contact</a>
+                <a class="nav-link">Projects</a>
+                <a class="nav-link">Resume</a>
+            </div>
+        </nav>
+
+        <main>
+            <div class="main-container">
+                <div class="splash-container">
+                    <section class="hero">
+                        <h1 class="hero-headline">
+                            Jeff Diers
+                        </h1>
+                        <div class="hero-copy">
+                            <p>
+                                Hi there, I am a web developer living in Denver, CO. If you would like to work with me or say hello, please email or give me a call.
+                                <br/>
+                                <br/>
+                                phone: 720-987-3868 <br />
+                                email: jeff.diers@gmail.com <br />
+                            </p>
+                        </div>
+                    </section>
+                    <section class="bang">
+                        <h1 class="logo">&lt;jd/&gt;</h1>
+                    </section>
+                </div>
+
+                <section class="social-icons-row-main">
+                        <a href="https://github.com/jeffdiers" target="_blank" onclick='FB.AppEvents.logEvent("github visit")'><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/jeffdiers/" target="_blank" onclick='FB.AppEvents.logEvent("instagram visit")'><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jeff-diers/" target="_blank" onclick='FB.AppEvents.logEvent("linkedin visit")'><i class="fab fa-linkedin-in"></i></a>
+                        <a href="Jeff-Diers-resume.pdf" target="_blank" onclick='FB.AppEvents.logEvent("resume click")'><i class="far fa-file-alt"></i></a>
+                    </section>
+            </div>
+        </main>
+    </body>
+</html>
