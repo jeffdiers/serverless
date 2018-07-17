@@ -3,7 +3,8 @@ version: 0.1
 phases:
   build:
     commands:
-      - echo Nothind to do
+      - npm install
+      - npm run webpack
 artifacts:
   files:
     - index.html
@@ -12,3 +13,4 @@ artifacts:
     - Jeff-Diers-resume.pdf
     - styles/main.css
     - Rubrik/*
+    - dist/bundle.js
