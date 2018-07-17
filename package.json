@@ -1,0 +1,32 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffdiers/serverless.git"
+  },
+  "author": "Jeff Diers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffdiers/serverless/issues"
+  },
+  "homepage": "https://github.com/jeffdiers/serverless#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
