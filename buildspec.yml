@@ -1,0 +1,14 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo Nothind to do
+artifacts:
+  files:
+    - index.html
+    - favicon.ico
+    - favicon.png
+    - Jeff-Diers-resume.pdf
+    - styles/main.css
+    - Rubrik/*
